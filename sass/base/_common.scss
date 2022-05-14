@@ -1,0 +1,59 @@
+:root{
+    --main-font:'Roboto', sans-serif;
+    --secondary-font:'Raleway', sans-serif;
+    --main-color:#212121;
+    --secondary-color:#2196F3;
+    
+    }
+
+    @media  screen and (min-width: 320px) and (max-width: 767px) {
+    body {
+        font-family: var(--main-font);
+        color: var(--main-color);
+        max-width: 480px;
+        // height: 2349px; 
+         margin-left: auto; 
+        margin-right: auto;  
+        }
+    }
+
+
+    body {
+        font-family: var(--main-font);
+        color: var(--main-color);
+        max-width: 1600px;
+        height: 2349px; 
+         margin-left: auto; 
+        margin-right: auto;  
+        }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    figure {
+        margin: 0;
+        padding: 0;
+    }
+    ul,
+    ol
+    li {
+        margin: 0;
+        padding: 0;
+    }
+    p {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .list{
+        list-style: none;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }

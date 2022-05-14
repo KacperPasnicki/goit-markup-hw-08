@@ -1,0 +1,168 @@
+// @media  screen and (min-width: 320px) and (max-width: 767px)
+//  {
+.hero  {
+      
+    padding: 118px 42px 198px 42px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url(../images/main/main-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    margin-right: auto;
+    margin-left: auto; 
+    text-transform: uppercase;
+    
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero {
+     background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url(../images/main-mobile@2.jpg);
+               }
+             }
+
+@media  screen and (min-width: 768px) {
+.hero  {
+      
+    padding: 118px 42px 198px 42px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url(../images/main/main-768.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    margin-right: auto;
+    margin-left: auto; 
+    text-transform: uppercase;
+    
+}  
+}
+                
+@media 
+(-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), 
+screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .hero  {
+          
+        padding: 118px 42px 198px 42px;
+        background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url(../images/main/main-1536@2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        margin-right: auto;
+        margin-left: auto; 
+        text-transform: uppercase;
+        
+    }  
+    }
+
+.hero .container {
+        
+       
+        max-width: 696px;
+        // text-align: center;
+        margin-right: auto;
+        margin-left: auto; 
+       
+        
+    }
+    
+    .hero__title{
+        font-weight: 900;
+        ;
+        line-height:1,615;
+        font-size: 26px;
+        letter-spacing: 0.06em;
+        color:#ffffff;
+        text-align: center; 
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-bottom: 30px;
+         
+        
+}
+
+ @media  screen and (min-width: 1200px) 
+ { .hero{
+    max-width: 1600px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 185px;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url(../images/main/main.jpg);
+}}
+@media 
+(-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), 
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) { 
+
+    .hero
+    {
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url(../images/main/main-3200@2.jpg);
+}
+}
+
+@media  screen and (min-width: 1200px)
+{
+ .hero__title  {
+ font-size: 44px;
+line-height: 1.545
+ }
+}
+     
+
+
+   
+    .button {
+        
+        font-family: var(--main-font);
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 10px 41px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.875;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color:#ffffff;
+        background-color: var(--secondary-color);
+        border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        cursor: pointer;
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     
+        &:hover {
+            background-color: #1085e2;
+            cursor: pointer;
+            }
+        
+
+
+    }
+    
+    
